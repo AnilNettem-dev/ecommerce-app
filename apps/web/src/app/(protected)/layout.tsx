@@ -3,6 +3,7 @@
 import { useAuthStore } from "@/store/auth.store"
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { Sidebar } from '@/shared/components/sidebar';
 
 export default function ProtectedLayout({
         children,
@@ -23,5 +24,13 @@ export default function ProtectedLayout({
 
     if(!accessToken) return null;
 
-    return <>{children}</>
+    return (
+                <div className="flex min-h-screen">
+                <Sidebar />
+
+                <main className="flex-1">
+                    {children}
+                </main>
+                </div>
+            );
 }
