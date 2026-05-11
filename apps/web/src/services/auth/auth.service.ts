@@ -1,13 +1,13 @@
-import { authMock } from './auth.mock';
+/* import { authMock } from './auth.mock';
 
 export const authService = {
   login: authMock.login,
   profile: authMock.profile,
 };
+ */
+import { ApiCLient } from "@/shared/lib/api/client";
 
-/* import { ApiCLient } from "@/shared/lib/api/client";
-
-export const AuthService = {
+export const authService = {
     login: async(data: {email: string, password: string}) => {
         return ApiCLient<({access_token: string, refresh_token: string})>(
             '/auth/login',{
@@ -23,4 +23,4 @@ export const AuthService = {
             },
         )
     },
-} */
+}

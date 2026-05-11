@@ -9,13 +9,19 @@ export default function DashboardPage(){
         console.log(data);
     };
     return (
-        <div className="p-10">
-            <button
-                onClick={getProfile}
-                className="bg-black text-white p-2"
-            >
-                Get Profile
-            </button>
-        </div>
+        <>
+            <div className="p-10">
+                <button
+                    onClick={getProfile}
+                    className="bg-black text-white p-2"
+                >
+                    Get Profile
+                </button>
+            </div>
+
+            <div className="text-red-500 text-4xl">
+                Tailwind Working
+            </div>
+        </>
     )
 }

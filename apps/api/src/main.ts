@@ -26,6 +26,11 @@ async function bootstrap() {
   // 🔥 CRITICAL
   SwaggerModule.setup('api', app, document);
 
+  app.enableCors({
+    origin: 'http://localhost:3000',
+    credentials: true,
+  });
+
   await app.listen(3001);
 }
 bootstrap();

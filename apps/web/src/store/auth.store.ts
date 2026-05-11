@@ -9,6 +9,7 @@ type User = {
 type AuthState = {
     user: User | null;
     accessToken: string | null;
+    refreshToken: string | null;
     hydrated: boolean;
     setHydrated: (value: boolean) => void;
     setAuth: (data: any) => void;
@@ -20,6 +21,7 @@ export const useAuthStore = create<AuthState>()(
         (set) => ({
             user: null,
             accessToken: null,
+            refreshToken: null,
             hydrated: false,
             setHydrated: (value) => 
                 set({
@@ -29,12 +31,14 @@ export const useAuthStore = create<AuthState>()(
                 set({
                     user: data.user,
                     accessToken: data.access_token,
+                    refreshToken: data.refresh_token,
                 })
             },
             logout: () => {
                 set({
                     user: null,
                     accessToken: null,
+                    refreshToken: null,
                 })
             }
         }),
