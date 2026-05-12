@@ -107,4 +107,11 @@ export const productService = {
 
     return mockProducts;
   },
+  getProductById: async(id: string): Promise<Product | undefined> => {
+    await new Promise((res) => {
+      setTimeout(res, 2000);
+    })
+
+    return mockProducts.find((product) => product.id === id);
+  }
 };
