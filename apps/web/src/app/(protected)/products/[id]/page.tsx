@@ -1,6 +1,5 @@
+import { AddToCartButton } from "@/features/cart/components/add-to-cart-button";
 import { productService } from "@/features/products/services/product.service";
-import { Product } from "@/features/products/types/product.types";
-import { useEffect, useState } from "react";
 
 type props = {
     params: {
@@ -41,9 +40,7 @@ export default async function ProductDetailsPage({params,}: props){
                     ₹ {product.price}
                     </p>
 
-                    <button className="bg-black text-white p-3 rounded-lg">
-                    Add to Cart
-                    </button>
+                    <AddToCartButton product={product}></AddToCartButton>
                 </div>
             </div>
     );

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Product } from "../types/product.types";
+import { AddToCartButton } from "@/features/cart/components/add-to-cart-button";
 
 type props = {
     product: Product
@@ -13,6 +14,8 @@ export function ProductCard ({product,}:props){
                 src={product.image}
                 alt={product.title}
                 className="rounded-lg"
+                width={100}
+                height={100}
               />
 
               <div>
@@ -28,6 +31,7 @@ export function ProductCard ({product,}:props){
               <p className="font-bold">
                 ₹ {product.price}
               </p>
+              <AddToCartButton product={product}></AddToCartButton>
             </div>
       </Link>
   );

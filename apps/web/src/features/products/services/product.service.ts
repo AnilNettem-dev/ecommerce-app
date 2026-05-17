@@ -6,7 +6,7 @@ const mockProducts: Product[] = [
     title: 'iPhone 15',
     price: 79999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple smartphone',
   },
   {
@@ -14,7 +14,7 @@ const mockProducts: Product[] = [
     title: 'MacBook Pro',
     price: 159999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple laptop',
   },
   {
@@ -22,7 +22,7 @@ const mockProducts: Product[] = [
     title: 'AirPods Pro',
     price: 24999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Wireless earbuds',
   },
   {
@@ -30,7 +30,7 @@ const mockProducts: Product[] = [
     title: 'iPhone 15',
     price: 79999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple smartphone',
   },
   {
@@ -38,7 +38,7 @@ const mockProducts: Product[] = [
     title: 'MacBook Pro',
     price: 159999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple laptop',
   },
   {
@@ -46,7 +46,7 @@ const mockProducts: Product[] = [
     title: 'AirPods Pro',
     price: 24999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Wireless earbuds',
   },
   {
@@ -54,7 +54,7 @@ const mockProducts: Product[] = [
     title: 'iPhone 15',
     price: 79999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple smartphone',
   },
   {
@@ -62,7 +62,7 @@ const mockProducts: Product[] = [
     title: 'MacBook Pro',
     price: 159999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple laptop',
   },
   {
@@ -70,7 +70,7 @@ const mockProducts: Product[] = [
     title: 'AirPods Pro',
     price: 24999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Wireless earbuds',
   },
   {
@@ -78,7 +78,7 @@ const mockProducts: Product[] = [
     title: 'iPhone 15',
     price: 79999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple smartphone',
   },
   {
@@ -86,7 +86,7 @@ const mockProducts: Product[] = [
     title: 'MacBook Pro',
     price: 159999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Apple laptop',
   },
   {
@@ -94,7 +94,7 @@ const mockProducts: Product[] = [
     title: 'AirPods Pro',
     price: 24999,
     image:
-      'https://placehold.co/400x400',
+      'https://placehold.co/100x100',
     description: 'Wireless earbuds',
   },
 ];
