@@ -1,5 +1,6 @@
 import { AddToCartButton } from "@/features/cart/components/add-to-cart-button";
 import { productService } from "@/features/products/services/product.service";
+import { formatCurrency } from "@/shared/lib/currency";
 
 type props = {
     params: {
@@ -37,7 +38,7 @@ export default async function ProductDetailsPage({params,}: props){
                     </p>
 
                     <p className="text-2xl font-bold">
-                    ₹ {product.price}
+                    ₹ {formatCurrency(product.price)}
                     </p>
 
                     <AddToCartButton product={product}></AddToCartButton>

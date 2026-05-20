@@ -1,6 +1,7 @@
 'use client';
 
 import { useCartStore } from "@/features/cart/store/cart.store";
+import { formatCurrency } from "@/shared/lib/currency";
 import { Trash2 } from "lucide-react";
 import Link from 'next/link';
 
@@ -81,8 +82,8 @@ export default function CartPage(){
 
                     <p>
                         ₹{' '}
-                        {item.price *
-                        item.quantity}
+                        {formatCurrency(item.price *
+                        item.quantity)}
                     </p>
                     </div>
 
@@ -99,7 +100,7 @@ export default function CartPage(){
             </div>
 
             <div className="text-2xl font-bold">
-                Total: ₹ {totalPrice}
+                Total: ₹ {formatCurrency(totalPrice)}
             </div>
             <Link
                 href="/checkout"

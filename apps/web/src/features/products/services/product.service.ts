@@ -8,6 +8,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple smartphone',
+    category: 'Phones',
   },
   {
     id: '2',
@@ -16,6 +17,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple laptop',
+    category: 'Laptops',
   },
   {
     id: '3',
@@ -24,6 +26,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Wireless earbuds',
+    category: 'Accessories',
   },
   {
     id: '4',
@@ -32,6 +35,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple smartphone',
+    category: 'Phones',
   },
   {
     id: '5',
@@ -40,6 +44,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple laptop',
+    category: 'Laptops',
   },
   {
     id: '6',
@@ -48,6 +53,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Wireless earbuds',
+    category: 'Accessories',
   },
   {
     id: '7',
@@ -56,6 +62,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple smartphone',
+    category: 'Phones'
   },
   {
     id: '8',
@@ -64,6 +71,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple laptop',
+    category: 'Laptops',
   },
   {
     id: '9',
@@ -72,6 +80,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Wireless earbuds',
+    category: 'Accessories',
   },
   {
     id: '10',
@@ -80,6 +89,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple smartphone',
+    category: 'Phones'
   },
   {
     id: '11',
@@ -88,6 +98,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Apple laptop',
+    category: 'Laptops',
   },
   {
     id: '12',
@@ -96,6 +107,7 @@ const mockProducts: Product[] = [
     image:
       'https://placehold.co/100x100',
     description: 'Wireless earbuds',
+    category: 'Accessories',
   },
 ];
 

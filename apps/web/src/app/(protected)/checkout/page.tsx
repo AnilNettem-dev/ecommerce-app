@@ -1,6 +1,7 @@
 'use client';
 
 import { useCartStore } from "@/features/cart/store/cart.store";
+import { formatCurrency } from "@/shared/lib/currency";
 import { Input } from "@/shared/ui/input";
 import { useState } from "react";
 
@@ -200,7 +201,7 @@ export default function CheckoutPage(){
                     <div className="border-t mt-6 pt-6 flex justify-between text-xl font-bold">
                     <span>Total</span>
 
-                    <span>₹ {totalPrice}</span>
+                    <span>₹ {formatCurrency(totalPrice)}</span>
                     </div>
                 </div>
             </div>

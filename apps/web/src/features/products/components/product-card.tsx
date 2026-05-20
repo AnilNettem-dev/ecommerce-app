@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Product } from "../types/product.types";
 import { AddToCartButton } from "@/features/cart/components/add-to-cart-button";
-
+import { formatCurrency } from "@/shared/lib/currency";
 type props = {
     product: Product
 }
@@ -29,7 +29,7 @@ export function ProductCard ({product,}:props){
               </div>
 
               <p className="font-bold">
-                ₹ {product.price}
+                ₹ {formatCurrency(product.price)}
               </p>
               <AddToCartButton product={product}></AddToCartButton>
             </div>
